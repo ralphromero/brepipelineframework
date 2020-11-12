@@ -41,6 +41,9 @@ namespace BREPipelineFramework.Helpers
                 case TypeEnum.Integer:
                     o = int.Parse(sourceString.ToString());
                     break;
+                case TypeEnum.UnsignedInteger:
+                    o = uint.Parse(sourceString.ToString());
+                    break;
                 case TypeEnum.String:
                     o = sourceString.ToString();
                     break;

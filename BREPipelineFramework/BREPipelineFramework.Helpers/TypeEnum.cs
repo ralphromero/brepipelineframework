@@ -7,6 +7,7 @@
     {
         String,
         Integer,
+        UnsignedInteger,
         Boolean,
         DateTime,
         NoCastRequired
