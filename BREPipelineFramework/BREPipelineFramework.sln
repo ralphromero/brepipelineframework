@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{560A2D4B-9D24-46D7-8655-FC4A548DA319}"
 	ProjectSection(SolutionItems) = preProject
 		..\BREPipelineFramework.snk = ..\BREPipelineFramework.snk
@@ -50,36 +52,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BREPipelineFramework.SampleInstructions", "BREPipelineFramework.SampleInstructions\BREPipelineFramework.SampleInstructions.csproj", "{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs13
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BREPipelineFramework.PipelineComponents.BREPipelineFrameworkComponent\\BREPipelineFramework.PipelineComponents.BREPipelineFrameworkComponent.csproj
-		SccProjectTopLevelParentUniqueName1 = BREPipelineFramework.sln
-		SccProjectName1 = BREPipelineFramework.PipelineComponents.BREPipelineFrameworkComponent
-		SccLocalPath1 = BREPipelineFramework.PipelineComponents.BREPipelineFrameworkComponent
-		SccProjectUniqueName2 = BREPipelineFramework\\BREPipelineFramework.csproj
-		SccProjectTopLevelParentUniqueName2 = BREPipelineFramework.sln
-		SccProjectName2 = BREPipelineFramework
-		SccLocalPath2 = BREPipelineFramework
-		SccProjectUniqueName3 = BREPipelineFramework.Helpers\\BREPipelineFramework.Helpers.csproj
-		SccProjectTopLevelParentUniqueName3 = BREPipelineFramework.sln
-		SccProjectName3 = BREPipelineFramework.Helpers
-		SccLocalPath3 = BREPipelineFramework.Helpers
-		SccProjectUniqueName4 = BREPipelineFramework.Installer\\BREPipelineFramework.Installer.vdproj
-		SccProjectTopLevelParentUniqueName4 = BREPipelineFramework.sln
-		SccProjectName4 = BREPipelineFramework.Installer
-		SccLocalPath4 = BREPipelineFramework.Installer
-		SccProjectUniqueName5 = BREPipelineFramework.SampleInstructions\\BREPipelineFramework.SampleInstructions.csproj
-		SccProjectTopLevelParentUniqueName5 = BREPipelineFramework.sln
-		SccProjectName5 = BREPipelineFramework.SampleInstructions
-		SccLocalPath5 = BREPipelineFramework.SampleInstructions
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug Without UnitTests|Any CPU = Debug Without UnitTests|Any CPU
-		Debug Without UnitTests|Mixed Platforms = Debug Without UnitTests|Mixed Platforms
-		Debug Without UnitTests|x86 = Debug Without UnitTests|x86
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
@@ -88,12 +61,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug Without UnitTests|Any CPU.ActiveCfg = Debug Without UnitTests|Any CPU
-		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug Without UnitTests|Any CPU.Build.0 = Debug Without UnitTests|Any CPU
-		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug Without UnitTests|Mixed Platforms.ActiveCfg = Debug Without UnitTests|Any CPU
-		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug Without UnitTests|Mixed Platforms.Build.0 = Debug Without UnitTests|Any CPU
-		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug Without UnitTests|x86.ActiveCfg = Debug Without UnitTests|Any CPU
-		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug Without UnitTests|x86.Build.0 = Debug Without UnitTests|Any CPU
 		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -106,12 +73,6 @@ Global
 		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Release|x86.ActiveCfg = Release|Any CPU
 		{F59789A2-DB48-48BE-A971-2E185D406F3B}.Release|x86.Build.0 = Release|Any CPU
-		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug Without UnitTests|Any CPU.ActiveCfg = Debug Without UnitTests|Any CPU
-		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug Without UnitTests|Any CPU.Build.0 = Debug Without UnitTests|Any CPU
-		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug Without UnitTests|Mixed Platforms.ActiveCfg = Debug Without UnitTests|Any CPU
-		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug Without UnitTests|Mixed Platforms.Build.0 = Debug Without UnitTests|Any CPU
-		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug Without UnitTests|x86.ActiveCfg = Debug Without UnitTests|Any CPU
-		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug Without UnitTests|x86.Build.0 = Debug Without UnitTests|Any CPU
 		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -124,12 +85,6 @@ Global
 		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Release|x86.ActiveCfg = Release|Any CPU
 		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5}.Release|x86.Build.0 = Release|Any CPU
-		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug Without UnitTests|Any CPU.ActiveCfg = Debug Without UnitTests|Any CPU
-		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug Without UnitTests|Any CPU.Build.0 = Debug Without UnitTests|Any CPU
-		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug Without UnitTests|Mixed Platforms.ActiveCfg = Debug Without UnitTests|Any CPU
-		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug Without UnitTests|Mixed Platforms.Build.0 = Debug Without UnitTests|Any CPU
-		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug Without UnitTests|x86.ActiveCfg = Debug Without UnitTests|Any CPU
-		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug Without UnitTests|x86.Build.0 = Debug Without UnitTests|Any CPU
 		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -142,21 +97,12 @@ Global
 		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Release|x86.ActiveCfg = Release|Any CPU
 		{C8058EEB-8D38-4DA9-B353-82C0D843D263}.Release|x86.Build.0 = Release|Any CPU
-		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Debug Without UnitTests|Any CPU.ActiveCfg = Debug Without UnitTests
-		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Debug Without UnitTests|Mixed Platforms.ActiveCfg = Debug Without UnitTests
-		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Debug Without UnitTests|x86.ActiveCfg = Debug Without UnitTests
 		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Debug|Any CPU.ActiveCfg = Debug
 		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Debug|Mixed Platforms.ActiveCfg = Debug
 		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Debug|x86.ActiveCfg = Debug
 		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Release|Any CPU.ActiveCfg = Release
 		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Release|Mixed Platforms.ActiveCfg = Release
 		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D}.Release|x86.ActiveCfg = Release
-		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug Without UnitTests|Any CPU.ActiveCfg = Debug Without UnitTests|Any CPU
-		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug Without UnitTests|Any CPU.Build.0 = Debug Without UnitTests|Any CPU
-		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug Without UnitTests|Mixed Platforms.ActiveCfg = Debug Without UnitTests|Any CPU
-		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug Without UnitTests|Mixed Platforms.Build.0 = Debug Without UnitTests|Any CPU
-		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug Without UnitTests|x86.ActiveCfg = Debug Without UnitTests|Any CPU
-		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug Without UnitTests|x86.Build.0 = Debug Without UnitTests|Any CPU
 		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -175,10 +121,13 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FD814B15-BD35-4BB2-95BB-480694F646E2} = {808521DA-26D0-4A05-BD29-C4130FF0149C}
-		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5} = {1386FB7A-D1BB-4B4A-98A2-208FCEAD2170}
 		{F59789A2-DB48-48BE-A971-2E185D406F3B} = {1386FB7A-D1BB-4B4A-98A2-208FCEAD2170}
+		{559F4DD6-9B6B-4AC4-AC5A-FE890020FFA5} = {1386FB7A-D1BB-4B4A-98A2-208FCEAD2170}
 		{C8058EEB-8D38-4DA9-B353-82C0D843D263} = {1386FB7A-D1BB-4B4A-98A2-208FCEAD2170}
 		{B64322B4-6507-4C07-9F4B-E94FEBFB5D2D} = {1386FB7A-D1BB-4B4A-98A2-208FCEAD2170}
 		{D00C51CC-A0A1-4407-88A0-3D2E7B4C18F6} = {1386FB7A-D1BB-4B4A-98A2-208FCEAD2170}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FB3E049-BCF3-4E3F-8E84-CD42B0EB5141}
 	EndGlobalSection
 EndGlobal
